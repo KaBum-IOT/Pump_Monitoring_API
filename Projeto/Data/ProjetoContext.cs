@@ -15,5 +15,6 @@ namespace Projeto.Data
         }
 
         public DbSet<Projeto.Sensor> Sensor { get; set; } = default!;
+        public DbSet<Projeto.User> User { get; set; } = default!;
     }
 }
